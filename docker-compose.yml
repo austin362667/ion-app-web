@@ -4,8 +4,8 @@ services:
   web:
     build: .
     volumes:
-      # Uncomment for production
-      - "./configs/caddy/Caddyfile:/etc/caddy/Caddyfile"
+      # Uncomment for production :/etc/caddy/Caddyfile
+      - "./configs/caddy/Caddyfile"
       # Dev caddyfile
       # - "./configs/caddy/local.Caddyfile:/etc/caddy/Caddyfile"
       # - "caddy:/data"
